@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article de Blog - Les Bienfaits du Yoga</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+        }
+        .featured-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .meta {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .meta ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .meta li {
+            margin-bottom: 5px;
+        }
+        .content {
+            margin-bottom: 40px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+        .comment-form {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        textarea {
+            min-height: 100px;
+        }
+        button {
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #1a252f;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Les Bienfaits du Yoga sur la Santé Mentale et Physique</h1>
+            <img src="https://source.unsplash.com/random/800x400/?yoga" alt="Personne pratiquant le yoga" class="featured-image">
+        </header>
+
+        <section class="meta">
+            <ul>
+                <li><strong>Auteur :</strong> Marie Dupont</li>
+                <li><strong>Date de publication :</strong> 15 octobre 2023</li>
+                <li><strong>Catégorie :</strong> Santé & Bien-être</li>
+            </ul>
+        </section>
+
+        <section class="content">
+            <p>Le yoga, une pratique millénaire originaire d'Inde, a gagné en popularité dans le monde entier pour ses nombreux bienfaits sur la santé. Bien plus qu'une simple série de postures, le yoga est une philosophie de vie qui unit le corps, l'esprit et l'âme.</p>
+
+            <h2>Les bienfaits physiques du yoga</h2>
+            <p>La pratique régulière du yoga améliore la flexibilité, la force musculaire et la posture. Les asanas (postures) travaillent en profondeur tous les muscles du corps, y compris ceux que nous sollicitons peu dans la vie quotidienne.</p>
+            <p>Le yoga contribue également à :</p>
+            <ul>
+                <li>Améliorer la circulation sanguine</li>
+                <li>Renforcer le système immunitaire</li>
+                <li>Réduire les douleurs chroniques</li>
+                <li>Améliorer la respiration et la capacité pulmonaire</li>
+            </ul>
+
+            <h2>Les bienfaits mentaux</h2>
+            <p>Au-delà des aspects physiques, le yoga est reconnu pour ses effets positifs sur la santé mentale. La combinaison de mouvements, de respiration et de méditation permet de :</p>
+            <ul>
+                <li>Réduire le stress et l'anxiété</li>
+                <li>Améliorer la concentration et la clarté mentale</li>
+                <li>Favoriser un meilleur sommeil</li>
+                <li>Développer la conscience de soi et la confiance en soi</li>
+            </ul>
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/XS8jJgXGvXQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h2>Comment commencer ?</h2>
+            <p>Il n'est jamais trop tard pour commencer le yoga. De nombreux studios proposent des cours pour débutants, et il existe également d'excellentes ressources en ligne. L'important est d'écouter son corps et de progresser à son rythme.</p>
+            <p>Pour les personnes souffrant de problèmes de santé spécifiques, il est recommandé de consulter un médecin avant de commencer et d'informer l'enseignant de yoga de vos limitations.</p>
+        </section>
+
+        <section class="comment-form">
+            <h3>Laissez un commentaire</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Commentaire :</label>
+                    <textarea id="comment" name="comment" required></textarea>
+                </div>
+                <button type="submit">Envoyer le commentaire</button>
+            </form>
+        </section>
+    </article>
+</body>
+</html>
